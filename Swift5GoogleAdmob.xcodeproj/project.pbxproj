@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,12 @@
 		5F10D2F42455AFF9005BA15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F10D2F22455AFF9005BA15C /* Main.storyboard */; };
 		5F10D2F62455B000005BA15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F10D2F52455B000005BA15C /* Assets.xcassets */; };
 		5F10D2F92455B000005BA15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F10D2F72455B000005BA15C /* LaunchScreen.storyboard */; };
+		5F10D3012455B8F6005BA15C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10D3002455B8F6005BA15C /* TableViewController.swift */; };
+		6373126646E5AE62D3FD90B9 /* Pods_Swift5GoogleAdmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F07F6DD66BFF956B520A413 /* Pods_Swift5GoogleAdmob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F07F6DD66BFF956B520A413 /* Pods_Swift5GoogleAdmob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5GoogleAdmob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F10D2E92455AFF9005BA15C /* Swift5GoogleAdmob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5GoogleAdmob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F10D2EC2455AFF9005BA15C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F10D2EE2455AFF9005BA15C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		5F10D2F52455B000005BA15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F10D2F82455B000005BA15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F10D2FA2455B000005BA15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F10D3002455B8F6005BA15C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BE313D661A980CA51458CA9D /* Pods-Swift5GoogleAdmob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5GoogleAdmob.release.xcconfig"; path = "Target Support Files/Pods-Swift5GoogleAdmob/Pods-Swift5GoogleAdmob.release.xcconfig"; sourceTree = "<group>"; };
+		D31C38D63EC586A67ACBCB1C /* Pods-Swift5GoogleAdmob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5GoogleAdmob.debug.xcconfig"; path = "Target Support Files/Pods-Swift5GoogleAdmob/Pods-Swift5GoogleAdmob.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6373126646E5AE62D3FD90B9 /* Pods_Swift5GoogleAdmob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				5F10D2EB2455AFF9005BA15C /* Swift5GoogleAdmob */,
 				5F10D2EA2455AFF9005BA15C /* Products */,
+				CAE786B6184FC412B55A26B5 /* Pods */,
+				9C6C09D57A47AF29275B859B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				5F10D2EC2455AFF9005BA15C /* AppDelegate.swift */,
 				5F10D2EE2455AFF9005BA15C /* SceneDelegate.swift */,
 				5F10D2F02455AFF9005BA15C /* ViewController.swift */,
+				5F10D3002455B8F6005BA15C /* TableViewController.swift */,
 				5F10D2F22455AFF9005BA15C /* Main.storyboard */,
 				5F10D2F52455B000005BA15C /* Assets.xcassets */,
 				5F10D2F72455B000005BA15C /* LaunchScreen.storyboard */,
 				5F10D2FA2455B000005BA15C /* Info.plist */,
 			);
 			path = Swift5GoogleAdmob;
+			sourceTree = "<group>";
+		};
+		9C6C09D57A47AF29275B859B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F07F6DD66BFF956B520A413 /* Pods_Swift5GoogleAdmob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE786B6184FC412B55A26B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D31C38D63EC586A67ACBCB1C /* Pods-Swift5GoogleAdmob.debug.xcconfig */,
+				BE313D661A980CA51458CA9D /* Pods-Swift5GoogleAdmob.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F10D2FD2455B000005BA15C /* Build configuration list for PBXNativeTarget "Swift5GoogleAdmob" */;
 			buildPhases = (
+				0F6FA4E76F6345A0AE6B00EF /* [CP] Check Pods Manifest.lock */,
 				5F10D2E52455AFF9005BA15C /* Sources */,
 				5F10D2E62455AFF9005BA15C /* Frameworks */,
 				5F10D2E72455AFF9005BA15C /* Resources */,
+				71DCD30981487BA1A7FCC4F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F6FA4E76F6345A0AE6B00EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5GoogleAdmob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71DCD30981487BA1A7FCC4F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5GoogleAdmob/Pods-Swift5GoogleAdmob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5GoogleAdmob/Pods-Swift5GoogleAdmob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5GoogleAdmob/Pods-Swift5GoogleAdmob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F10D2E52455AFF9005BA15C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +212,7 @@
 				5F10D2F12455AFF9005BA15C /* ViewController.swift in Sources */,
 				5F10D2ED2455AFF9005BA15C /* AppDelegate.swift in Sources */,
 				5F10D2EF2455AFF9005BA15C /* SceneDelegate.swift in Sources */,
+				5F10D3012455B8F6005BA15C /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +354,11 @@
 		};
 		5F10D2FE2455B000005BA15C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31C38D63EC586A67ACBCB1C /* Pods-Swift5GoogleAdmob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
 				INFOPLIST_FILE = Swift5GoogleAdmob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,15 +367,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nonoka.Swift5GoogleAdmob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5F10D2FF2455B000005BA15C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE313D661A980CA51458CA9D /* Pods-Swift5GoogleAdmob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
 				INFOPLIST_FILE = Swift5GoogleAdmob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nonoka.Swift5GoogleAdmob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
